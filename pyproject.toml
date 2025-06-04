@@ -1,0 +1,12 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openai_sdk_wrapper"
+version = "0.1.0"
+description = "A local OpenAI SDK wrapper for consistent API usage"
+authors = [{ name = "braydio", email = "chaffee.brayden@gmail.com" }]
+dependencies = ["openai>=1.0.0"]
